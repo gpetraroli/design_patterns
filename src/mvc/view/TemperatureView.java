@@ -49,7 +49,7 @@ public class TemperatureView extends JFrame implements Observer {
     void setupGraphics() {
         this.plus = new JButton("+");
         this.minus = new JButton("-");
-        this.value = new JTextField("");
+        this.value = new JTextField(Integer.toString(temperatureModel.DEFAULT_TEMPERATURE));
         this.slider = new JSlider(JSlider.HORIZONTAL, temperatureModel.MIN_TEMPERATURE, temperatureModel.MAX_TEMPERATURE, 0);
 
         Container contentPane = this.getContentPane();
