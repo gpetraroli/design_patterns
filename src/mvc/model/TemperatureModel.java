@@ -4,7 +4,7 @@ import java.util.Observable;
 
 public class TemperatureModel extends Observable {
     public final int MIN_TEMPERATURE = -273;
-    public final int MAX_TEMPERATURE = 10000;
+    public final int MAX_TEMPERATURE = 1000;
 
     private int value;
 

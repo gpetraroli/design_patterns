@@ -10,10 +10,16 @@ public class TemperatureController {
     }
 
     public void increment() {
+        if (temperatureModel.getValue() + 1 > temperatureModel.MAX_TEMPERATURE) {
+            return;
+        }
         this.temperatureModel.setValue(this.temperatureModel.getValue() + 1);
     }
 
     public void decrement() {
+        if (temperatureModel.getValue() - 1 < temperatureModel.MIN_TEMPERATURE) {
+            return;
+        }
         this.temperatureModel.setValue(this.temperatureModel.getValue() - 1);
     }
 
