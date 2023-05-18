@@ -15,6 +15,11 @@ public class Action implements Observable {
     }
 
     @Override
+    public void removeObserver(Observer observer) {
+        this.observers.remove(observer);
+    }
+
+    @Override
     public void notifyObservers() {
         for(Observer observer : this.observers) {
             observer.updateObserver();
