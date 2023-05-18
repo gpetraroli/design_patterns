@@ -16,3 +16,7 @@ So at every change of the action we call the method ```updateObserver()``` of ev
 ## UML
 
 ![Observer UML](observer.png)
+
+### Links
+
+[Refactoring Guru](https://refactoring.guru/design-patterns/observer)<br />

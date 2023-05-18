@@ -2,4 +2,4 @@
 
 ## Behavioral patterns
 
-[Observer](src/observer/observer.md)
+[Observer](src/observer/observer.md)<br />
