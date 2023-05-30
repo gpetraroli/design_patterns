@@ -9,6 +9,7 @@ If you find it useful feel free to fork it and of course if you want to contribu
 
 [Observer](src/observer/observer.md)<br />
 
-## Creational patterns
+## Structural patterns
 
 [Adapter](src/adapter/adapter.md)<br />
+[Proxy](src/proxy/proxy.md)
